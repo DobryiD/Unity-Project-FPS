@@ -29,7 +29,7 @@ public class BossHealth : EnemyHealth
             source.PlayOneShot(bossDeathSound, 1.5f);
 
             alive = false;
-            
+            gameController.EnemyDies();
             Destroy(gameObject, 20f);
         }
     }

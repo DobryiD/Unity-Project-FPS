@@ -109,7 +109,12 @@ public class GameController : MonoBehaviour {
                     {
                         for (int i = 0; i <  temp; i++)
                         {
-                            SpawnRandomEnemy(ref numberOfSpawnedEnemies);
+                            if (numberOfSpawnedEnemies < maxNumberZombiesForWave)
+                            {
+                                SpawnRandomEnemy(ref numberOfSpawnedEnemies);
+                            }
+                            else { break; }
+                            
                         }
                         yield return new WaitForSeconds(spawnDelay);
                     }
