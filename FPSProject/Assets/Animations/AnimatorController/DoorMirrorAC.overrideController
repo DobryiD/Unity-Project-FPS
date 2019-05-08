@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: DoorMirrorAC
+  m_Controller: {fileID: 9100000, guid: 901911538d2bd0346b5ebc4d5f76d6d2, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: d87f43d7de165514cb1eca35b67c5eb8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5e47acb324532064d83337908cde23ec, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 99f3d977d0a5c21418c631c036427d69, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 38667a9369cd00d4781aea71d72a7d42, type: 2}

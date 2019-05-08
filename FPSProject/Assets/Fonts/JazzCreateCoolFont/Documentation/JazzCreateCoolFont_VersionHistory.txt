@@ -1,0 +1,13 @@
+﻿         JazzCreateCoolFont Version History_1.1  date format = (dd/mm/yy)
+
+Version 1.0 - published onto the asset store
+Version 1.1 
+	 a) added CoolFont 3D world space capital letters, numbers and 10 symbols 
+            b) added to demo scene the new 3D characters to showcase.
+            c) re-designed store icons, to include 3D characters into description
+            d) tweaks to meta-data (add to content list)
+            e) re-structure folders, to include 3D characters, Documentation.
+            g) add screen-shots to store
+Version 1.1 Submitted (21/10/2016)
+
+JazzCreate©2015-2016.

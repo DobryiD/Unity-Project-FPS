@@ -1,0 +1,191 @@
+fileFormatVersion: 2
+guid: cc26aec482662cd4ab32938c3a164382
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: DobermanZombie
+    100002: //RootNode
+    100004: DogDogHeadJaw
+    100006: DogHead
+    100008: DogLEar1
+    100010: DogLEar2
+    100012: DogLFLeg1
+    100014: DogLFLeg2
+    100016: DogLFLegCollarbone
+    100018: DogLFLegDigit11
+    100020: DogLFLegPalm
+    100022: DogLLeg1
+    100024: DogLLeg2
+    100026: DogLLegDigit11
+    100028: DogLLegPalm
+    100030: DogNeck
+    100032: DogPelvis
+    100034: DogREar1
+    100036: DogREar2
+    100038: DogRFLeg1
+    100040: DogRFLeg2
+    100042: DogRFLegCollarbone
+    100044: DogRFLegDigit11
+    100046: DogRFLegPalm
+    100048: DogRibcage
+    100050: DogRLeg1
+    100052: DogRLeg2
+    100054: DogRLegDigit11
+    100056: DogRLegPalm
+    100058: DogSpine1
+    100060: DogSpine2
+    100062: DogTail1
+    400000: DobermanZombie
+    400002: //RootNode
+    400004: DogDogHeadJaw
+    400006: DogHead
+    400008: DogLEar1
+    400010: DogLEar2
+    400012: DogLFLeg1
+    400014: DogLFLeg2
+    400016: DogLFLegCollarbone
+    400018: DogLFLegDigit11
+    400020: DogLFLegPalm
+    400022: DogLLeg1
+    400024: DogLLeg2
+    400026: DogLLegDigit11
+    400028: DogLLegPalm
+    400030: DogNeck
+    400032: DogPelvis
+    400034: DogREar1
+    400036: DogREar2
+    400038: DogRFLeg1
+    400040: DogRFLeg2
+    400042: DogRFLegCollarbone
+    400044: DogRFLegDigit11
+    400046: DogRFLegPalm
+    400048: DogRibcage
+    400050: DogRLeg1
+    400052: DogRLeg2
+    400054: DogRLegDigit11
+    400056: DogRLegPalm
+    400058: DogSpine1
+    400060: DogSpine2
+    400062: DogTail1
+    2100000: DobermanZombie
+    4300000: DobermanZombie
+    7400000: DogRun_90
+    9500000: //RootNode
+    13700000: DobermanZombie
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DobermanZombie
+    second: {fileID: 2100000, guid: 105d11ba18f5b1543ad3f3c12f8f67e3, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: DogRun_90
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: DogPelvis
+    rootMotionBoneRotation: {x: 0.69604146, y: -0.12460469, z: -0.6960414, w: 0.12460469}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: c7a5d6096eb2cc74db423a9b6a024c39,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
