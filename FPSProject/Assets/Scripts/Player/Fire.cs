@@ -204,6 +204,7 @@ public class Fire : MonoBehaviour {
             else
             {
                 GameObject bulletClone = Instantiate(bulletHole, hit.point, Quaternion.FromToRotation(-Vector3.forward, hit.normal));
+                bulletClone.transform.parent = hit.transform;
                 Destroy(bulletClone, 10f);
             }
 
