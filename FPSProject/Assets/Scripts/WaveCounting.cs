@@ -10,7 +10,6 @@ public class WaveCounting : MonoBehaviour {
     private CanvasGroup group;
     private GameObject gameControllerObject;
     private GameController gameControllerScript;
-    private bool NoGameController = true;
     private bool WavesActivated = false;
 
     private void Awake()
@@ -20,27 +19,16 @@ public class WaveCounting : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-        if (WavesActivated) {
-            group.alpha = 1f;
-        }
-        if (gameControllerObject == null && NoGameController)
+        if (gameControllerObject = GameObject.FindGameObjectWithTag("GameController"))
         {
-            gameControllerObject = GameObject.FindGameObjectWithTag("GameController");
-            if (gameControllerObject == null)
-            {
-                NoGameController = true;
-                group.alpha = 0f;
-            }
-            else
-            {
-                gameControllerScript = gameControllerObject.GetComponent<GameController>();
-                NoGameController = false;
-            }
-        }
-        else if (gameControllerObject != null)
-        {
+            gameControllerScript = gameControllerObject.GetComponent<GameController>();
+
             waveCounter.text = gameControllerScript.GetWave() + "/" + gameControllerScript.MaxWaves;
             WavesActivated = gameControllerScript.firstWaveStarted;
+            if (WavesActivated)
+            {
+                group.alpha = 1f;
+            }
             if (gameControllerScript.isWaveActive())
             {
                 biohazardSign.color = new Color(1f, 1f, 1f, 1f);
@@ -59,5 +47,9 @@ public class WaveCounting : MonoBehaviour {
                 enemyCounter_timer.text = minutes + " : " + seconds;
             }
         }
-	}
+        else
+        {
+            group.alpha = 0f;
+        }
+    }
 }
